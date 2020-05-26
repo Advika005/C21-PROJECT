@@ -21,11 +21,14 @@ var damage,thickness;
 function draw() {
   background("darkBlue"); 
 
+  fill(255,20,147);
+  textSize(40)
+  text("BULLETS AND WALLS",600,50)
   fill(0,255,0)
   textSize(20)
   text("if the damage <= 10, The wall is  effective against the bullet",673,280)
   fill(255,0,0)
-  text("if the damage > 10,The wall is effective against the bullet",673,340)
+  text("if the damage > 10,The wall is not effective against the bullet",673,340)
   textSize(30)
   fill("white")
   text("DAMAGE=",868,383);
